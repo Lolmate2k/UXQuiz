@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center;     /* horizontal */
+}
+
+button {
+    margin-top: 15%;
+    width: 30%;
+    height: 30%;
+    font-size: xx-large;
+    padding: 3%;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.723);
+}
+
